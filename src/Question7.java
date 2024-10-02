@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Question7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("월(1-12) 을 입력하세요 : ");
+        System.out.print(" 월(1-12) 을 입력하세요 : ");
         int month = sc.nextInt();
 
         switch (month) {

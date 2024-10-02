@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Question8 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("몸무개를 입력해주세요");
+        System.out.println(" 몸무개를 입력해주세요");
         double weight = sc.nextInt();
-        System.out.println("키를 입력해주세요");
+        System.out.println(" 키를 입력해주세요");
         double height = sc.nextInt();
 
         double bmi = weight / (height * height);

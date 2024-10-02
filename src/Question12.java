@@ -16,9 +16,9 @@ public class Question12 {
         double avg = (double) (num1 + num2 + num3 + num4) / 4;
 
         if(avg >= 60){
-            System.out.print("합격");
+            System.out.print(" 합격 ");
         }else{
-            System.out.print("불합격");
+            System.out.print(" 불합격 ");
         }
     }
 }
