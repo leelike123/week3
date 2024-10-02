@@ -1,11 +1,9 @@
-import java.awt.desktop.SystemSleepListener;
 import java.util.Scanner;
 
 public class Question7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        System.out.print("월을 입력 하세요(1~12) : ");
+        System.out.print("월(1-12) 을 입력하세요 : ");
         int month = sc.nextInt();
 
         switch (month) {
@@ -29,6 +27,8 @@ public class Question7 {
             case 11:
                 System.out.println("가을");
                 break;
+            default:
+                System.out.println("잘못된 월 입니다. 1 ~ 12 사이를 입력해주세요.");
         }
     }
 }

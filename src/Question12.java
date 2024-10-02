@@ -1,4 +1,3 @@
-```java
 import java.util.Scanner;
 
 public class Question12 {
@@ -23,4 +22,3 @@ public class Question12 {
         }
     }
 }
-```
